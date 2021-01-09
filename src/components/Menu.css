@@ -1,0 +1,32 @@
+.Menu{
+    display: flex;
+    flex-basis: 225px;
+    background-color: #5E3448;
+}
+
+.Menu nav{
+    flex-grow: 1;
+}
+
+
+.Menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.Menu li{
+    display: flex;
+}
+
+/* o 'Link' gera uma tag 'a' */
+.Menu li a{
+    flex-grow: 1;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.Menu li a:hover {
+    background: #00000020;
+}

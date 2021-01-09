@@ -1,0 +1,42 @@
+form{
+    margin-bottom: 50px;
+}
+
+label{
+    font-size: 1.2rem;
+    padding: 5px;
+    color: #3B3A35;
+}
+
+legend{
+    font-size: 1.4rem;
+    color: #3B3A35;
+}
+
+input#produtoQTD{
+    width: 50px;
+}
+
+input#produtoPreco{
+    width: 70px;
+}
+
+input#codigo{
+    width: 70px;
+}
+
+.Button{
+    font-size: 1.1rem;
+    background-color: #5E3448;
+    color: #ffffff;
+    border: none;
+}
+.Button:hover{
+    background: #3d1f2e;
+}
+
+p{
+    font-size: 1.2rem;
+    color: #3B3A35;
+    padding: 0px 5px 0px 5px;
+}
